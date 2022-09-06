@@ -6,9 +6,10 @@ import books from "../books/fantasy.json";
 class LatestRelease extends Component {
     render(){
         return(
-            <Carousel>
+            <>
+            <Carousel className="my-carousel">
                 {books.map((book, index) => (
-                    <Carousel.Item key={`fantasy-book-${index}`} className="my-carousel">
+                    <Carousel.Item key={`fantasy-book-${index}`} >
                         <img src={book.img}></img>
 
                     </Carousel.Item>
@@ -19,6 +20,7 @@ class LatestRelease extends Component {
                 )}
             
             </Carousel>
+            </>
         )
     }
 }

@@ -55,7 +55,7 @@ footer .myFooter{
   left: calc(50vw - 200px);
  
 }
-carousel .my-carousel{
+Carousel{
 
   position: absolute;
   border: 4px solid white;
