@@ -14,8 +14,8 @@ function App() {
         <MyNav></MyNav>
       </header>
       <main>
-        <Welcome></Welcome>
         <LatestRelease></LatestRelease>
+        <Welcome></Welcome>
       </main>
       <footer>
         <MyFooter></MyFooter>
