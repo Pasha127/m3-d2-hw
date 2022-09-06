@@ -1,5 +1,5 @@
 import {Component} from "react";
-import {Nav} from "react-bootstrap";
+//import {} from "react-bootstrap";
 
 class MyFooter extends Component {
     render(){

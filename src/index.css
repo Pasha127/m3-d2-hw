@@ -11,7 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.jumbotron{
+  background-color: #282c34;
+  position: absolute;
+  border: 4px solid white;
+  top: 25vh;
+  width: 400px;
+  justify-content: center;
+  background-color: #373b42;
+  font-size: 20pt;  
+  left: calc(50vw - 200px);
+  height: 50vh;
+}
+.jumbotron .btn{
+  
+  position: relative;
+  
+  top: 0;
+  
+  justify-content: center;
+  
+  
+}
 header .nav{
   position: absolute;
   top: 20vh;
@@ -23,9 +44,9 @@ header *{
   height: 68.75px;
 }
 footer .myFooter{
-  position: fixed;
+  position: absolute;
   border: 4px solid white;
-  bottom: 20vh;
+  top: 70vh;
   width: 400px;
   justify-content: center;
   background-color: #373b42;
