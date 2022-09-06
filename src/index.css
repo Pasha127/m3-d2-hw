@@ -55,17 +55,25 @@ footer .myFooter{
   left: calc(50vw - 200px);
  
 }
-Carousel{
+.my-carousel{
 
-  position: absolute;
-  border: 4px solid white;
-  top: 0vh;
+    background-color: #282c34;
+    position: absolute;
+    border: 4px solid white;
+    top: -75vh;
+    width: 400px;
+    justify-content: center;
+    background-color: #373b42;
+    font-size: 20pt;  
+    left: calc(50vw - 200px);
+    height: 50vh;
+
+}
+
+.my-carousel img{
   width: 400px;
-  justify-content: center;
-  background-color: #373b42;
-  font-size: 20pt;
-  color: #ffffff;
-  left: calc(50vw - 200px);
+  height: 45vh;
+
 }
 
 footer{
